@@ -70,23 +70,28 @@ app.use(cors())
 
 let films = {
     'starship troopers':{
+        name: "Starship Troopers",
         year: 1997,
         genre: 'sci-fi'
 
     },
     'robocop' :{
+        name: "Robocop",
         year: 1987,
         genre: 'sci-fi'
     },
     'basic instinct': {
+        name: "Basic Instinct",
         year: 1992,
         genre: 'thriller'
     },
     'total recall': {
+        name: "Total Recall",
         year: 1990,
         genre: 'sci-fi'
     },
     'unknown':{
+        name: "Unknown",
         year: 0000,
         genre: 'sci-fi'
     }
